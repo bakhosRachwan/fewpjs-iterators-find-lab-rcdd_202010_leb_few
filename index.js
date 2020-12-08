@@ -4,7 +4,10 @@ function testFunc() {
   return "hi"
 }
 
-const superbowlWin = (record) => {
-  let win = record.find(x => x.result === "W")
-  return !!win? win.year : undefined
+const superBowlWin = (x) => {
+  
+  let s = record.find(x => {
+    return x.result === "W"
+  })
+  return !!s ? s.year :undefined
 }
