@@ -5,5 +5,7 @@ function testFunc() {
 }
 
 const superBowlWin = () => {
-  
+  return record.find(x => {
+    return 
+  })
 }
