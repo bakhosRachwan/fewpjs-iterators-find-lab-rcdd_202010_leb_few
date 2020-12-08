@@ -6,6 +6,8 @@ function testFunc() {
 
 const superBowlWin = () => {
   return record.find(x => {
-    return x === "W"
+    if(x.result === "W"){
+      return x.year
+    }
   })
 }
