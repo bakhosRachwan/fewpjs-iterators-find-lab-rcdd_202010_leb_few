@@ -5,7 +5,7 @@ function testFunc() {
 }
 
 const superBowlWin = (record) => {
-  return record.find(x => {
+  return "The KC Chiefs won the superbowl at " + record.find(x => {
     return x.result === "W"
   }).year
 }
